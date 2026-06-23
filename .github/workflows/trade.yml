@@ -2,8 +2,8 @@ name: Autonomous Trading Agent
 
 on:
   schedule:
-    - cron: '0 12 * * *'  # Täglich um 12:00 UTC
-  workflow_dispatch:       # Manueller Start
+    - cron: '0 12 * * *'
+  workflow_dispatch:
 
 jobs:
   trade:
@@ -30,4 +30,4 @@ jobs:
           echo "TWAK_HMAC_SECRET=${{ secrets.TWAK_HMAC_SECRET }}" >> .env
 
       - name: Run Trading Agent (CI version)
-  run: python .github/workflows/pancake_trader_ci.py
+        run: python pancake_trader_ci.py
