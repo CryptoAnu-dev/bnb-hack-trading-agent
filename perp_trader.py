@@ -23,8 +23,8 @@ print(f"✅ Agent-Wallet verbunden: {wallet.address}")
 # 2. ApolloX (AsterDEX) Client mit direkten Keys
 # ==========================================
 # ⚠️ HIER deine API-Keys von AsterDEX eintragen!
-APOLLOX_API_KEY = "0xCED9ef0eAe71c1c7C7E0B0fB76533d365FD23e2a"        # ← HIER EINTRAGEN
-APOLLOX_API_SECRET = "0xe1c1b93e0b49a30588ed1eedeefb86ce927715b8482b10db745617dcf53cfd2f"  # ← HIER EINTRAGEN
+APOLLOX_API_KEY = " "        # ← HIER EINTRAGEN
+APOLLOX_API_SECRET = " "  # ← HIER EINTRAGEN
 
 # Client initialisieren (ohne testnet-Argument)
 if APOLLOX_API_KEY == "dein_api_key_hier" or APOLLOX_API_SECRET == "dein_api_secret_hier":
